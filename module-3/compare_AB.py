@@ -17,3 +17,4 @@ elif VARA == VARB:
     print("Equal")
 else:
     print("Smaller")
+    
