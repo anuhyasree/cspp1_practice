@@ -10,7 +10,7 @@ def main():
     '''
     nu_m = int(input())
     i=1
-    for i in nu_m:
+    for i in range(nu_m):
     	if nu_m%3 and nu_m%5:
     		print("Fizz")
     		print("Buzz")
@@ -19,7 +19,7 @@ def main():
     			elif nu_m%5:
     				print("Buzz")
     				else:
-    					print(i)
+    					print()
 
 
 
