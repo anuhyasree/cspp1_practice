@@ -8,9 +8,9 @@ def main():
     Read string from the input, store it in variable str_input.
     '''
     str_input = input()
-    char = ""
+    char = " "
     for char in str_input:
-        if str_input in ("!","@","#","$","%","^","&","*"):
+        if str_input in ("!", "@", "#", "$", "%", "^", "&", "*"):
             str_output = str_output + " "
         else: 
             str_output = str_output + char
