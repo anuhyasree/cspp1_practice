@@ -12,8 +12,8 @@ def main():
     for char in str_input:
         if str_input in ("!","@","#","$","%","^","&","*"):
             str_output = str_output + " "
-        else:
-            str_output = str_output + char
-            print(str_output)
+            else: 
+                str_output = str_output + char
+                print(str_output)
 if __name__ == "__main__":
     main()
