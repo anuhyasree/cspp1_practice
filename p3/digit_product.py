@@ -10,10 +10,10 @@ def main():
     '''
     s_p = int(input())
     sum_p = 1
-    n_p = 1
+    n_p = 0
     while s_p != 0:
-        sum_p = n_p % 10
-        n_p = n_p + sum_p
+        n_p = s_p % 10
+        sum_p = sum_p * n_p
         s_p = s_p / 10
     print(n_p)
 if __name__ == "__main__":
