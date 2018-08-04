@@ -12,7 +12,7 @@ def main():
     sum = 0
     N=1
     while S != 0:
-        sum = N%10
+        sum = N % 10
         N = N + sum
         S = S/10
     print(N)
