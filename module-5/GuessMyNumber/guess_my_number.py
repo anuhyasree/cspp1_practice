@@ -1,7 +1,7 @@
 """Guess My Number Exercise"""
 def main():
     """def"""
-    print('Please think of a number between 0 and 100!')
+print('Please think of a number between 0 and 100!')
 LOW = 0
 HEIGH = 100
 ANS = (LOW + HEIGH) // 2

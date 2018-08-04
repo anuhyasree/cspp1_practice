@@ -8,12 +8,14 @@ def main():
     '''
     Read any number from the input, store it in variable int_input.
     '''
-    int_input = int(input())
+    S = int(input())
     sum = 0
-    while int_input > 0:
-        sum = sum + int_input
-        int_input = int_input%10
-    print(sum)
+    N=1
+    while S != 0:
+        sum = N%10
+        N = N + sum
+        S = S/10
+    print(N)
 
 if __name__ == "__main__":
     main()
