@@ -8,20 +8,19 @@ def main():
     '''
     Read number from the input, store it in variable num.
     '''
-    nu_m = int(input())
+    num = int(input())
     i=1
-    for i in range(nu_m):
-    	if nu_m%3 and nu_m%5:
+    while i<= num:
+    	if (i%3==0 and i%5==0):
     		print("Fizz")
     		print("Buzz")
-    	    elif nu_m%3:
-    		    print("Fizz")
-    			elif nu_m%5:
-    				print("Buzz")
-    				else:
-    					print()
-
-
+    	elif i%3==0:
+    		print("Fizz")
+    	elif i%5==0:
+    	    print("Buzz")
+    	else:
+    		print(i)
+    	i += 1
 
 if __name__ == "__main__":
     main()
