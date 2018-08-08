@@ -1,16 +1,9 @@
-x = 23
-epsilon = 0.01
-step = 0.001
-guess = 0.0
-
-while abs(guess**2-x) >= epsilon:
-    if guess <= x:
-        guess += step
-    else:
-        print(guess)
-        break
-
-if abs(guess**2 - x) >= epsilon:
-    print('failed')
-else:
-    print('succeeded: ' + str(guess))
+def fib(n):
+	if n == 1:
+		return 0
+	elif n== 2:
+		return 1
+	else:
+		return fib(n-1) + fib(n-2)
+output = int(input())
+print(fib(output))
