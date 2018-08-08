@@ -9,11 +9,8 @@ def oddTuples(aTup):
     
     returns: tuple, every other element of aTup. 
     '''
-    word = ()
-    for i in range(0, len(aTup)):
-        if i % 2 == 0:
-            word = word + (aTup[i],)
-    return word        
+    
+    return aTup[::2]        
 
 def main():
     data = input()
